@@ -1,0 +1,14 @@
+.star-rating .active svg{
+    stroke: red;
+    fill: yellow;
+}
+
+.star-rating .hovered svg{
+    stroke: blue;
+    fill: green;
+}
+
+.star-rating .hovered .active svg{
+    stroke: rgb(255, 0, 234);
+    fill: rgb(203, 128, 8);
+}
