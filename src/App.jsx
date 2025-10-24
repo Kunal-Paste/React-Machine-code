@@ -1,13 +1,10 @@
-import React from 'react'
-import StarRating from './Components/StarRating'
-import PopOver from './Components/PopOver';
-import StopWatch from './stopwatch/StopWatch';
+import React from "react";
+import StarRating from "./Components/StarRating";
+import PopOver from "./Components/PopOver";
+import StopWatch from "./stopwatch/StopWatch";
+import SuggestionBar from "./suggestionBar/SuggestionBar";
 
 const App = () => {
-  const handleChange = (value) =>{
-     console.log(value);
-     
-  }
   return (
     <div>
       {/* <StarRating value={0} onChange={handleChange}/> */}
@@ -15,9 +12,13 @@ const App = () => {
         <PopOver.Action>Click Me</PopOver.Action>
         <PopOver.Content>Hello There</PopOver.Content>
       </PopOver> */}
-      <StopWatch/>
-    </div>
-  )
-}
 
-export default App
+      {/* <StopWatch /> */}
+
+      <SuggestionBar/>
+      
+    </div>
+  );
+};
+
+export default App;
