@@ -11,6 +11,7 @@ const PopOver = ({children}) => {
     function togglePopOver(){
        setisopen(!isopen);
        //open to commit 
+       //open to commit2
     }
 
   return (
