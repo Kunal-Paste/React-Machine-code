@@ -33,6 +33,7 @@ const StarRating = (value=0,onChange,numverofstars=NUMBER_OF_STARS) => {
             let className = '';
             if(index<=clickIndex){
                 className='active';
+                //open commmit
             }
 
             if(index<=hoverIndex){
