@@ -3,6 +3,7 @@ import StarRating from "./Components/StarRating";
 import PopOver from "./Components/PopOver";
 import StopWatch from "./stopwatch/StopWatch";
 import SuggestionBar from "./suggestionBar/SuggestionBar";
+import Bankdepo from "./BankDeposit/Bankdepo";
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
 
       {/* <StopWatch /> */}
 
-      <SuggestionBar/>
+      {/* <SuggestionBar/> */}
+      <Bankdepo/>
       
     </div>
   );
