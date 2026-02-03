@@ -1,16 +1,20 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import { setQuery } from "../redux/searchSlice/searchSlice";
 
 const SearchBar = () => {
   const [text, setText] = useState("");
+  const dispatch = useDispatch();
 
   function submitHandler(e) {
     e.preventDefault();
-    console.log(text);
+    dispatch(setQuery(text));
+    // console.log(text);
     setText("");
   }
 
   return (
-    <div className="h-screen w-full bg-zinc-700 flex gap-10 p-7">
+    <div className="flex gap-10 p-7">
       <form
         onSubmit={(e) => {
           submitHandler(e);

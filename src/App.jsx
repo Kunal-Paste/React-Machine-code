@@ -5,10 +5,11 @@ import StopWatch from "./stopwatch/StopWatch";
 import SuggestionBar from "./suggestionBar/SuggestionBar";
 import Bankdepo from "./BankDeposit/Bankdepo";
 import SearchBar from "./Components/SearchBar";
+import Tabs from "./Components/Tabs";
 
 const App = () => {
   return (
-    <div>
+    <div className="h-screen w-full bg-zinc-700">
       {/* <StarRating value={0} onChange={handleChange}/> */}
       {/* <PopOver>
         <PopOver.Action>Click Me</PopOver.Action>
@@ -21,6 +22,7 @@ const App = () => {
       {/* <Bankdepo/> */}
 
       <SearchBar/>
+      <Tabs/>
       
     </div>
   );
