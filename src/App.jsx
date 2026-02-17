@@ -6,6 +6,7 @@ import SuggestionBar from "./suggestionBar/SuggestionBar";
 import Bankdepo from "./BankDeposit/Bankdepo";
 import SearchBar from "./Components/SearchBar";
 import Tabs from "./Components/Tabs";
+import ResultGrid from "./Components/ResultGrid";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
 
       <SearchBar/>
       <Tabs/>
+      <ResultGrid/>
       
     </div>
   );
