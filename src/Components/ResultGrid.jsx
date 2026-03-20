@@ -17,7 +17,7 @@ const ResultGrid = () => {
           data = response.results;
         }
         if (activeTab == "videos") {
-          let response = await fetchVideos(query);
+          let response = await fetchVideos(query); // see u on monday
           data = response.videos;
         }
 
